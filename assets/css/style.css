@@ -1,0 +1,44 @@
+body {
+  background-color: #171717;
+  margin: 0;
+  font-family: 'DM Sans';
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1400px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  color: #F9F9F9;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.cabecalho h3 {
+  font-size: 26px;
+}
+
+.cabecalho a {
+  color: #F9F9F9;
+  text-decoration: none;
+}
+
+.cabecalho nav a:hover {
+  color: #00DF5E;
+  transition: .3s;
+}
+
+.cabecalho nav {
+  display: flex;
+  gap: 50px;
+}
+
