@@ -2,11 +2,13 @@ body {
   background-color: #171717;
   margin: 0;
   font-family: 'DM Sans';
+  color: #828282;
 }
 
 h1,h2,h3,h4,h5,h6 {
   margin: 0;
   padding: 0;
+  color: #F9F9F9;
 }
 
 .container {
@@ -42,3 +44,41 @@ h1,h2,h3,h4,h5,h6 {
   gap: 50px;
 }
 
+#banner-curriculo {
+  border-radius: 50px;
+  transform: scaleX(-1);
+}
+
+.campo-curriculo {
+  display: flex;
+  padding: 200px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.campo-curriculo h1 {
+  width: 12ch;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#btn-download {
+  color: #171717;
+  background-color: #00DF5E;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+}
+
+#btn-contato {
+  background-color: #171717;
+  color: #F9F9F9;
+  border: 1px solid #333333;
+  padding: 10px 20px ;
+}
+
+.btns-curriculo {
+  display: flex;
+  gap: 15px;
+}
