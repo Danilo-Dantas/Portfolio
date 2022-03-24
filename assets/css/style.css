@@ -183,3 +183,35 @@ h2 {
   border: 1px solid #333333;
   border-radius: 2px;
 }
+
+.campo-servicos {
+  margin-top: 200px;
+}
+
+.campo-servicos h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.conteudo-servicos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  justify-content: space-around;
+}
+
+.servicos {
+  background-color: #212121;
+  max-width: 350px;
+  width: 301px;
+  height: 240px;
+  padding: 30px 40px 0 40px;
+  border-radius: 2px;
+  border: 1px solid #333333;
+  border-bottom: 3px solid #00DF5E;
+}
+
+.servicos {
+  font-size: 28px;
+}
+
