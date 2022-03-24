@@ -11,6 +11,10 @@ h1,h2,h3,h4,h5,h6 {
   color: #F9F9F9;
 }
 
+h2 {
+  font-size: 32px;
+}
+
 .container {
   width: 80%;
   margin: auto;
@@ -83,7 +87,7 @@ h1,h2,h3,h4,h5,h6 {
 
 #btn-download:hover {
   margin-top: 5px;
-  transition: .2s;
+  transition: .1s;
 }
 
 #btn-contato {
@@ -99,7 +103,7 @@ h1,h2,h3,h4,h5,h6 {
 
 #btn-contato:hover {
   margin-top: 5px;
-  transition: .2s;
+  transition: .1s;
 }
 
 .campo-sobre {
@@ -137,4 +141,30 @@ h1,h2,h3,h4,h5,h6 {
 
 .campo-projetos {
   margin-top: 200px;
+}
+
+.campo-projetos h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.conteudo-projetos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  justify-content: space-around;
+}
+
+.projetos {
+  background-color: #212121;
+  max-width: 350px;
+  height: 240px;
+  padding: 40px;
+}
+
+.projetos img {
+  background-color: #171717;
+  width: 300px;
+  height: 130px;
 }
