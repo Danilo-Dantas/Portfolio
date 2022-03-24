@@ -11,6 +11,8 @@ h1,h2,h3,h4,h5,h6 {
   color: #F9F9F9;
 }
 
+
+
 h2 {
   font-size: 32px;
 }
@@ -160,11 +162,23 @@ h2 {
   background-color: #212121;
   max-width: 350px;
   height: 240px;
-  padding: 40px;
+  padding: 20px 40px 0 40px;
+  border: 1px solid #333333;
+  border-radius: 2px;
+}
+
+.projetos p {
+  margin: 5px 0;
+}
+
+.projetos h4 {
+  margin-top: 15px;
 }
 
 .projetos img {
   background-color: #171717;
   width: 300px;
   height: 130px;
+  object-position: center;
+  object-fit: cover;
 }
