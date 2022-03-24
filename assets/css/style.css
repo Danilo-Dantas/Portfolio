@@ -176,9 +176,10 @@ h2 {
 }
 
 .projetos img {
-  background-color: #171717;
   width: 300px;
   height: 130px;
   object-position: center;
   object-fit: cover;
+  border: 1px solid #333333;
+  border-radius: 2px;
 }
