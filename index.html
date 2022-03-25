@@ -23,19 +23,23 @@
 
     <header>
       <section class="cabecalho">
-        <div>
-          <h3><a href="">@DanDantas</a></h3>
-        </div>
-        <nav>
-          <a href="">Sobre mim</a>
-          <a href="">Projetos</a>
-          <a href="">Serviços</a>
-          <a href="">Minhas skills</a>
+        <nav class="conteudo-cabecalho">
+          <div>
+            <h3><a href="#anc-inicio">@DanDantas</a></h3>
+          </div>
+          <div class="conteudo-navs">
+            <a href="#anc-sobre-mim">Sobre mim</a>
+            <a href="#anc-projetos">Projetos</a>
+            <a href="#anc-servicos">Serviços</a>
+            <a href="#anc-skills">Minhas skills</a>
+          </div>
         </nav>
       </section>
     </header>
 
-    <main>
+
+
+    <main id="anc-inicio">
       <section class="campo-curriculo">
         <div>
           <h1>Olá, eu sou o Danilo Dantas :)</h1>
@@ -50,7 +54,7 @@
         </div>
       </section>
 
-      <section class="campo-sobre">
+      <section id="anc-sobre-mim" class="campo-sobre">
         <div class="conteudo-sobre">
           <h2>Sobre mim</h2>
           <p>Estudante de Análise e desenvolvimento de sistemas com foco em desenvolvimento fullstack. Busco
@@ -82,16 +86,18 @@
         </div>
       </section>
 
-      <section class="campo-projetos">
+      <section id="anc-projetos" class="campo-projetos">
         <div>
           <h2>Projetos</h2>
         </div>
         <div class="conteudo-projetos">
-          <div class="projetos">
-            <img src="./assets/img/desafios/img-desafio01.png" alt="">
-            <h4>Titulo do projeto</h4>
-            <p>Tecnologias: HTML, CSS e JS</p>
-          </div>
+          <a href="">
+            <div class="projetos">
+              <img src="./assets/img/desafios/img-desafio01.png" alt="">
+              <h4>Titulo do projeto</h4>
+              <p>Tecnologias: HTML, CSS e JS</p>
+            </div>
+          </a>
           <div class="projetos">
             <img src="./assets/img/desafios/img-desafio02.png" alt="">
             <h4>Titulo do projeto</h4>
@@ -118,9 +124,12 @@
             <p>Tecnologias: HTML, CSS e JS</p>
           </div>
         </div>
+        <div class="conteudo-btn-todos">
+          <a href="https://danilodantasprojetos.vercel.app" target="_blank"><button>Ver todos</button></a>
+        </div>
       </section>
 
-      <section class="campo-servicos">
+      <section id="anc-servicos" class="campo-servicos">
         <div>
           <h2>Serviços</h2>
         </div>
@@ -140,7 +149,7 @@
         </div>
       </section>
 
-      <section class="campo-skills">
+      <section id="anc-skills" class="campo-skills">
         <div>
           <h2>Minhas Skills</h2>
         </div>

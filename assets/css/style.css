@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #171717;
   margin: 0;
@@ -22,11 +26,25 @@ h2 {
 }
 
 .cabecalho {
+  background-color: #171717;
+  position: fixed;
+  padding: 20px 0;
+  width: 80%;
+  max-width: 1400px;
+  z-index: 99;
+}
+
+.cabecalho nav {
   display: flex;
-  align-items: center;
-  color: #F9F9F9;
+  gap: 50px;
+  max-width: 1400px;
+  margin: auto;
   justify-content: space-between;
-  margin-top: 30px;
+}
+
+.conteudo-navs {
+  display: flex;
+  gap: 40px;
 }
 
 .cabecalho h3 {
@@ -41,11 +59,6 @@ h2 {
 .cabecalho nav a:hover {
   color: #00DF5E;
   transition: .3s;
-}
-
-.cabecalho nav {
-  display: flex;
-  gap: 50px;
 }
 
 #banner-curriculo {
@@ -180,6 +193,25 @@ h2 {
   object-fit: cover;
   border: 1px solid #333333;
   border-radius: 2px;
+}
+
+.conteudo-btn-todos {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.conteudo-btn-todos button {
+  background-color: #171717;
+  color: #F9F9F9;
+  border: 1px solid #00DF5E;
+  padding: 15px 50px;
+  cursor: pointer;
+  transition: .3s;
+  font-weight: bold;
+}
+
+.conteudo-btn-todos button:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 223, 94, .7);
 }
 
 .campo-servicos {
