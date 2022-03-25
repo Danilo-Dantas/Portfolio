@@ -210,6 +210,8 @@ h2 {
 
 .campo-skills {
   margin-top: 200px;
+  margin-bottom: 200px;
+  
 }
 
 .campo-skills h2 {
@@ -220,14 +222,38 @@ h2 {
 .conteudo-skills {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+  gap: 30px;
+  justify-items: center;
 }
 
 .skills {
   background-color: #212121;
-  padding: 25px;
+  padding: 20px 0 10px;
+  max-width: 150px;
+  width: 150px;
+  border-radius: 2px;
+  transition: .3s;
+  border: 1px solid transparent;
 }
 
+.skills:hover {
+  border: 1px solid #00DF5E;
+  transition: .3s;
+}
 
+.banco-svg, .bootstrap-svg, .git-svg {
+  width: 80px;
+  height: 80px;
+}
+
+.rodape {
+  background-color: #212121;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 16px;
+}
 
 
 
