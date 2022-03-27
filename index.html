@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <!-- Icone do site -->
-  <link rel="shortcut icon" type="imagex/png" href="./Home/img/D-logo.png">
+  <link rel="shortcut icon" type="imagex/png" href="./assets/img/D-logo.png">
   <!-- Import CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
   <!-- Import Fonts -->
@@ -45,8 +45,8 @@
           <h1>Olá, eu sou o Danilo Dantas :)</h1>
           <p>Desenvolvedor Web</p>
           <div class="btns-curriculo">
-            <a href="#"><button id="btn-download">Download CV</button></a>
-            <a href="#"><button id="btn-contato">Entrar em contato</button></a>
+            <a href="./assets/pdf/Danilo Dantas.pdf" target="_blank"><button id="btn-download">Download CV</button></a>
+            <a href="mailto:danilodantasofc@gmail.com"><button id="btn-contato">Entrar em contato</button></a>
           </div>
         </div>
         <div>
@@ -65,26 +65,38 @@
             novos desafios, conhecer novas pessoas e aprimorar minhas habilidades profissionais.</p>
         </div>
         <div class="conteudo-icons">
-          <div>
-            <img src="./assets/img/smile.png">
-            <h4>Meu Nome</h4>
-            <p>Danilo Dantas</p>
-          </div>
-          <div>
-            <img src="./assets/img/mail.png">
-            <h4>E-mail</h4>
-            <p>danilodantasofc@gmail.com</p>
-          </div>
-          <div>
-            <img src="./assets/img/instagram.png">
-            <h4>Instagram</h4>
-            <p>@dann_dantass</p>
-          </div>
-          <div>
-            <img src="./assets/img/phone.png">
-            <h4>Celular</h4>
-            <p>(11) 95500-8885</p>
-          </div>
+          <a class="bloco-sobre" href="">
+            <div>
+              <img src="./assets/img/smile.png">
+              <h4>Meu Nome</h4>
+              <p>Danilo Dantas</p>
+            </div>
+          </a>
+
+          <a class="bloco-sobre" href="">
+            <div>
+              <img src="./assets/img/mail.png">
+              <h4>E-mail</h4>
+              <p>danilodantasofc@gmail.com</p>
+            </div>
+          </a>
+
+          <a class="bloco-sobre" href="">
+            <div>
+              <img src="./assets/img/instagram.png">
+              <h4>Instagram</h4>
+              <p>@dann_dantass</p>
+            </div>
+          </a>
+
+          <a class="bloco-sobre" href="https://api.whatsapp.com/send?phone=5511955008885&text=Olá! podemos conversar?"
+            target="_blank">
+            <div>
+              <img src="./assets/img/whatsapp.svg">
+              <h4>Celular</h4>
+              <p>(11) 95500-8885</p>
+            </div>
+          </a>
         </div>
       </section>
 
@@ -95,7 +107,7 @@
           <h2>Projetos</h2>
         </div>
         <div class="conteudo-projetos">
-          <a href="">
+          <a href="https://danilodantasprojetos.vercel.app/Desafio01/index.html">
             <div class="projetos">
               <img src="./assets/img/desafios/img-desafio01.png" alt="">
               <h4>Titulo do projeto</h4>

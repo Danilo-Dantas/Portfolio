@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: #171717;
   margin: 0;
@@ -133,6 +137,27 @@ h2 {
   padding-top: 20px;
   font-size: 1rem;
   line-height: 28px;
+}
+
+.bloco-sobre p {
+  color: #828282;
+}
+
+.bloco-sobre {
+  padding: 10px;
+  border: 1px solid transparent;
+}
+
+.bloco-sobre img {
+  width: 32px;
+  height: 32px;
+  fill: #00DF5E;
+}
+
+.bloco-sobre:hover {
+  border: 1px solid #00DF5E;
+  border-radius: 10px;
+  transition: .3s;
 }
 
 .conteudo-icons {
