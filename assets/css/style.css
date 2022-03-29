@@ -115,7 +115,8 @@ h2 {
   padding: 10px 20px ;
   position: absolute;
   cursor: pointer;
-  right: 0;
+  left: 140px;
+  width: 150px;
   transition: .2s;
 }
 
@@ -322,7 +323,71 @@ h2 {
   font-size: 16px;
 }
 
+@media screen and (max-width: 1350px) {
+  .conteudo-skills {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 
+@media screen and (max-width: 1040px) {
+  .conteudo-projetos {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .conteudo-sobre {
+    width: auto;
+  }
+  .campo-curriculo {
+    display: block;
+  }
+  #banner-curriculo {
+    display: none;
+  }
+  .conteudo-servicos {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .servicos {
+    width: 75%;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .conteudo-skills {
+    grid-template-columns: 1fr 1fr;
+  }
+  .conteudo-icons {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
+  .campo-curriculo {
+    padding: 180px 0 250px 0;
+  }
+  .conteudo-projetos {
+    grid-template-columns: 1fr;
+  }
+  .campo-projetos {
+    margin-top: 100px;
+  }
+  .campo-servicos {
+    margin-top: 150px;
+  }
+  .campo-skills {
+    margin-top: 150px;
+    margin-bottom: 40px;
+  }
+  .skills {
+    width: 120px;
+  }
+  .cabecalho {
+    display: none;
+  }
+}
 
 
 
