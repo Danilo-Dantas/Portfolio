@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 
 a {
@@ -26,7 +27,7 @@ h2 {
 .container {
   width: 80%;
   margin: auto;
-  max-width: 1400px;
+  max-width: 1200px;
 }
 
 .cabecalho {
@@ -34,14 +35,14 @@ h2 {
   position: fixed;
   padding: 20px 0;
   width: 80%;
-  max-width: 1400px;
+  max-width: 1200px;
   z-index: 99;
 }
 
 .cabecalho nav {
   display: flex;
   gap: 50px;
-  max-width: 1400px;
+  max-width: 1200px;
   margin: auto;
   justify-content: space-between;
 }
@@ -192,6 +193,10 @@ h2 {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
   justify-content: space-around;
+}
+
+.conteudo-projetos a {
+  color: #828282;
 }
 
 .projetos {
