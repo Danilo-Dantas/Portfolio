@@ -208,6 +208,11 @@ h2 {
   border-radius: 2px;
 }
 
+.projetos:hover {
+  border: 1px solid #00DF5E;
+  transition: .5s;
+}
+
 .projetos p {
   margin: 5px 0;
 }
